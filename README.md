@@ -1,12 +1,15 @@
 # simple_blackjack
 6조
-
-blackjack 간단설명
-=================
 오현정
 이재인
 정수빈
 이현경
+
+![image](https://user-images.githubusercontent.com/33446327/39399433-703b98ba-4b58-11e8-844d-2bfa5be5ce1b.png)
+
+blackjack 간단설명
+=================
+
 
 **blackjack rule in this project**
 
