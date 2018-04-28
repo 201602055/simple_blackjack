@@ -1,9 +1,13 @@
 package com.cnu.blackjack;
 import org.junit.Test;
+
+import java.util.Map;
+
 public class EvaluatorTest {
     @Test
     public void 게임초기화시_모든플레이어는_2장의카드를_받는다() {
-        Evaluator evaluator=new Evaluator();
+        Evaluator evaluator=new Evaluator("asdf",500);
+        evaluator
 
     }
 
