@@ -9,7 +9,7 @@ public class EvaluatorTest {
 
         game.addPlayer("hello", 5000);
         game.placeBet("hello", 1000);
-        Evaluator evaluator = new Evaluator("hello",Player);
+        Evaluator evaluator = new Evaluator(game.getPlayerList());
         evaluator.start();
     }
 }
