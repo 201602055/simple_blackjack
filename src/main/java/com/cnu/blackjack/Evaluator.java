@@ -15,7 +15,8 @@ public class Evaluator {
     public void start() {
         int dealerScore = dealer.getScore();
         playerMap.forEach((name, player) -> {
-            System.out.println(name+" player's money : "+player.getBalance());
+            System.out.println(name+" player's money : "+(player.getBalance()+player.getCurrentBet()));
+            System.out.println(name+" player's betting money : "+player.getCurrentBet());
             boolean result=false;
             while(true) {
                 if(dealerScore==21){

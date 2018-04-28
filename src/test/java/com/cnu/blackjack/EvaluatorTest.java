@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class EvaluatorTest {
     @Test
-    public void 게임시작() {
+    public void 플레이어_한명_게임시작() {
         Deck deck=new Deck(1);
         Game game = new Game(deck);
 
