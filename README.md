@@ -56,3 +56,9 @@ evaluator 객체 생성
 2장의 카드를 나눠줌
 
 start()메소드를 이용해 게임 시작
+
+**evaluator test**
+
+evaluator객체 생성을 위해 deck과 game객체도 생성
+
+player를 한명만 생성해서 1 vs 1대결 test
