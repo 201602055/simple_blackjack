@@ -3,7 +3,7 @@ package com.cnu.blackjack;
 public class Main {
     public static void main(String[] args) {
         Deck deck = new Deck(1);
-        Game game = new Game(deck);l
+        Game game = new Game(deck);
 
         game.addPlayer("been", 5000);
         game.placeBet("been", 1000);
